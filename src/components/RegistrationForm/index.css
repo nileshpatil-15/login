@@ -1,0 +1,77 @@
+/* Write your CSS code here */
+*{
+    font-family: roboto;
+}
+.app-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.registration-card{
+    display: flex;
+  align-items: center;
+   flex-direction: column;
+   width: 50%;
+   max-width: 450px;
+}
+.form-container{
+    width: 100%;
+}
+.first-name-container{
+    margin-bottom: 18px;
+}
+.last-name-container{
+    margin-bottom: 18px;
+}
+.input-element{
+width: 100%;
+border-width: 1px;
+padding: 12px;
+/* margin-bottom: 19px; */
+margin-top: 10px;
+border-radius: 6px;
+font-weight: 400;
+border-style:  solid;
+border-color: groove;
+color: black;
+font-size: 15px;
+outline: none;
+}
+label{
+    color: #475569;
+    font-size: roboto;
+    font-weight: 600;
+}
+.submit-btn{
+    width: 100%;
+    background-color: #ea580c;
+    padding: 14px;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+.heading{
+    color:#ea580c
+}
+.error{
+    color: red;
+font-weight: 600;
+    
+}
+.red1{
+    background-color: #e9dadd;
+border-color: #ff0b37;    
+}
+.red2{
+    background-color: #e9dadd;
+border-color: #ff0b37;
+}
+.form2{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
